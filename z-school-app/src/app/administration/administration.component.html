@@ -1,0 +1,17 @@
+<h3>Sections</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ref</th>
+            <th>Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let section of sections">
+            <td>{{section.id}}</td>
+            <td>{{section.ref}}</td>
+            <td>{{section.level}}</td>
+        </tr>
+    </tbody>
+</table>
