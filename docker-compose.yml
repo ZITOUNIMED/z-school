@@ -20,6 +20,22 @@ services:
             - z-school-users
         networks:
             - z-school-users-administration-network
+            
+    z-school-library:
+        image: mzitouni/z-school-library:0.0.4.RELEASE
+        ports:
+            - "8082:8082"
+        restart: always
+    
+    z-school-app:
+        image: mzitouni/z-school-app:0.0.4.RELEASE
+        ports:
+            - "8080:8080"
+        restart: always
+        depends_on:
+            - z-school-users
+            - z-school-library
+            - z-school-administration
 
 networks:
     z-school-users-administration-network:
