@@ -1,0 +1,63 @@
+## Administration
+/z-school-administration/HELP.md
+/z-school-administration/.gradle
+/z-school-administration/build/
+/z-school-administration/!gradle/wrapper/gradle-wrapper.jar
+/z-school-administration/!**/src/main/**/build/
+/z-school-administration/!**/src/test/**/build/
+/z-school-administration/bin/
+/z-school-administration/.classpath
+/z-school-administration/.project
+/z-school-administration/.settings
+
+## Users
+/z-school-users/HELP.md
+/z-school-users/.gradle
+/z-school-users/build/
+/z-school-users/!gradle/wrapper/gradle-wrapper.jar
+/z-school-users/!**/src/main/**/build/
+/z-school-users/!**/src/test/**/build/
+/z-school-users/bin/
+/z-school-users/.classpath
+/z-school-users/.project
+/z-school-users/.settings
+
+## Users
+/z-school-library/HELP.md
+/z-school-library/.gradle
+/z-school-library/build/
+/z-school-library/!gradle/wrapper/gradle-wrapper.jar
+/z-school-library/!**/src/main/**/build/
+/z-school-library/!**/src/test/**/build/
+/z-school-library/bin/
+/z-school-library/.classpath
+/z-school-library/.project
+/z-school-library/.settings
+
+
+# Fronend
+
+/z-school-app/nodes_modules
+/z-school-app/dist
+/z-school-app/tmp
+/z-school-app/out-tsc
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/

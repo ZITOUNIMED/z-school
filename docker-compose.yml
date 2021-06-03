@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+    z-school-users:
+        image: mzitouni/z-school-users:0.0.4.RELEASE
+        ports:
+            - "8081:8081"
+        restart: always
+        networks:
+            - z-school-users-administration-network
+        #deploy:
+         #   replicas: 2
+
+    z-school-administration:
+        image: mzitouni/z-school-administration:0.0.3.RELEASE
+        ports:
+            - "8083:8083"
+        restart: always
+        depends_on:
+            - z-school-users
+        networks:
+            - z-school-users-administration-network
+
+networks:
+    z-school-users-administration-network:
