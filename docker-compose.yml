@@ -28,7 +28,7 @@ services:
         restart: always
     
     z-school-app:
-        image: mzitouni/z-school-app:0.0.4.RELEASE
+        image: mzitouni/z-school-app:0.0.5.RELEASE
         ports:
             - "8080:8080"
         restart: always

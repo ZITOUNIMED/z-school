@@ -37,7 +37,7 @@
 
 # Fronend
 
-/z-school-app/nodes_modules
+/z-school-app/node_modules
 /z-school-app/dist
 /z-school-app/tmp
 /z-school-app/out-tsc
