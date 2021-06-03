@@ -64,3 +64,4 @@ out/
 
 ## Others
 .DS_Store
+*.log

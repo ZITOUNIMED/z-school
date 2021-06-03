@@ -2,7 +2,7 @@ version: "3"
 
 services:
     z-school-users:
-        image: mzitouni/z-school-users:0.0.4.RELEASE
+        image: mzitouni/z-school-users:0.0.5.RELEASE
         ports:
             - "8081:8081"
         restart: always
@@ -22,7 +22,7 @@ services:
             - z-school-users-administration-network
             
     z-school-library:
-        image: mzitouni/z-school-library:0.0.4.RELEASE
+        image: mzitouni/z-school-library:0.0.5.RELEASE
         ports:
             - "8082:8082"
         restart: always

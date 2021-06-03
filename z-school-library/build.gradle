@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'z.school'
-version = '0.0.1.RELEASE'
+version = '0.0.2.RELEASE'
 sourceCompatibility = '1.8'
 
 configurations {

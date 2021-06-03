@@ -5,5 +5,5 @@ RUN gradle build --no-daemon
 
 FROM openjdk:8-jre-slim
 EXPOSE 8082
-COPY --from=build /home/gradle/src/build/libs/library-0.0.1.RELEASE.jar library.jar
+COPY --from=build /home/gradle/src/build/libs/z-school-library-0.0.2.RELEASE.jar library.jar
 ENTRYPOINT [ "sh", "-c", "java -jar /library.jar" ]

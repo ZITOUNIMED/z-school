@@ -6,8 +6,8 @@ In this project there is 4 microservices:
 <br/>
 
 To pull last images from docker hub use following commands:
-* $ docker pull mzitouni/z-school-user:0.0.4.RELEASE
-* $ docker pull mzitouni/z-school-library:0.0.4.RELEASE
+* $ docker pull mzitouni/z-school-user:0.0.5.RELEASE
+* $ docker pull mzitouni/z-school-library:0.0.5.RELEASE
 * $ docker pull mzitouni/z-school-app:0.0.5.RELEASE
 * $ docker pull mzitouni/z-school-administration:0.0.3.RELEASE
 <br/>
