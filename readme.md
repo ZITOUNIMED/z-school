@@ -15,5 +15,5 @@ To pull last images from docker hub use following commands:
 Run docker services using docker-compose and access from the browser localy to the different microservices on:
 * App microservice: http://localhost:8080/
 * Users microservice: http://localhost:8081/swagger-ui.html
-* Library microservice: http://localhost:2/swagger-ui.html
+* Library microservice: http://localhost:8082/swagger-ui.html
 * Administration microservice: http://localhost:8083/swagger-ui.html
